@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contacto</title>
+  <link rel="stylesheet" type="text/css" href="css/estilos.css">  
+  <link rel="shortcut icon" type="image/png" href="img/contact.png">
+</head>
+<body>
+ 
+ <!--Encabezado de pagina -->
+ <header>
+    <!-- Logo de la pagina -->
+  <div class="logo-img">
+   <table> 
+   	<tr>
+   		<div class="logo-img">
+        <td><img src="img/logo.jpg" width="200"></td>
+    </div>
+    </tr>
+    </table> 
+  </div>
+ 
+  <table id="menu"> 
+  	<tr>
+		<td><h2><a href="index.html" title="Inicio" target="_top" style="color:white;">Inicio</a></h2></td>
+		<td>
+			<h2><a href="comunicateconnosotros.html" title="Quienes Somos" target="_top" style="color:white;">Quienes somos</a></h2>
+		</td>
+				<td><h2>
+      <a href="nuestroscursos.html" title="Nuestros Cursos" target="_top" style="color:white;">Nuestros Cursos</a>
+    </h2>
+    </td>	
+		
+    <td><h2>
+      <a href="#" title="Contactos" target="_top" style="color:white;">Contacto</a>
+    </h2>
+    </td>
+   	 
+    <td><h2>
+      <a href="empleos.html" title="Empleos" target="_top" style="color:white;">Empleos</a>
+    </h2>
+    </td>    
+
+	</tr>
+
+</table>
+</header>
+
+<!-- Caja despues del menu para las tablas -->
+
+  <section class="seccion-pagina-contacto">
+  <!-- Primera tabla -->
+  <article>
+  
+  <table> 
+   
+      <!-- Lineas de imagenes de contacto y horario -->    
+    <tr>
+        <!-- Caja Imagen de Callcenter -->
+      <div class="caja-contacto-img">
+      <td>
+                 
+          <img src="img/contacto.jpg" alt="Conctacto" width="465" height="200"></img> 
+        
+      </td>
+      </div>
+           <!-- Caja Imagen de horario -->
+      <div class="caja-horario-img">
+      <td>        
+          <img src="img/horario.jpg" alt="Horario Gráfico" width="465" height="200"></img>
+      </td>
+      </div>
+   </tr>
+
+  </table>
+
+  <table>
+    <tr>
+
+      
+      <td>
+        <div class="caja-datos-direccion">    
+          <address>
+            <p><b>Dirección:</b><br>
+              Compumetro Eduardo Brito, Puente de la 17.<br>
+            <b>Tel.:</b> 809-555-5555, ext.5555 <br>
+            <b>Email:</b><a href = "mailto: disenopaginaweb@programad@s.com">disenopaginaweb@programad@s.com</a></p>
+            <b>Redes Sociales: </b>
+            </p>
+          </address>
+          <ul>
+          <!-- Twitter CTC RD : @ctcrd -->
+          <li>
+            <a target="_blank" href="https://twitter.com/ctcrd">
+              <img src="img/twitter.png" width="25" height="25"> 
+              <i></i> 
+              <span>@ctcrd</span>
+              </a>
+          </li>
+          <!-- Facebook CTC RD : @ctcrd -->
+          <li>
+            <a target="_blank" href="https://www.facebook.com/CTCRDo">
+                  <img src="img/facebook64.png" width="25" height="25"></img>
+                <i></i> <span>Centros Tecnológicos Comunitarios</span>
+            </a>
+            </li>
+          <!-- Intagram CTC RD : @ctcrd -->
+          <li>
+            <a target="_blank" href="https://www.instagram.com/ctcrdo/">
+            <img src="img/instagram.png" width="25" height="25">
+            <i></i>
+            <span>Instagram</span>
+            </a>
+          </li>
+          <!-- Youtube CTC RD : @ctcrd -->
+          <li>
+            <a target="_blank" href="https://www.youtube.com/playlist?list=PLf8m_B9hk6-cNa8npO9m2mIwq_GrRgyq4">
+            <img src="img/youtube.png" width="25" height="25">
+            <i></i>   
+            <span>YouTube</span>
+            </a>
+          </li>
+        </ul>
+      
+    </div></td> 
+
+  
+  <td>
+    <div class="selecciona-servicio-centro-opbtn">      
+        <div class="encuesta-label">
+          <label>Encuesta de Satisfacción</label>       
+        </div>   
+        <br>
+          <!-- <form> -->      
+         <label style="background-color: dodgerblue; color:white; font-size: 16px;">Califique Nuestro Servicio:</label>
+         <label style="background-color: dodgerblue; color:white; font-size: 16px;">Compumetro: &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp </label> 
+         <br>
+         <input list="servicios" > 
+          <datalist id="servicios">
+            <option value="Excelente"></option>
+            <option value="Bueno"></option>
+            <option value="Regular"></option>
+            <option value="Malo"></option>
+          </datalist>
+         
+          <input list="centros">
+          <datalist id="centros"> 
+            <option value="Amín Abel"></option>
+            <option value="Centro de los Héroes"></option>
+            <option value="Eduardo Brito"></option>
+            <option value="Mauricio Báez"></option>
+            <option value="María Montez"></option>
+            <option value="Juan Bosch"></option>
+            <option value="Juan Pablo Duarte"></option>
+           </datalist> 
+           <br>
+           <textarea id="textareacontacto" wrap="on" cols="30" rows="5" placeholder="Comentarios"></textarea><br>
+           <button type="button" onclick="alert('Datos Enviados!')">Enviar</button>
+    </div> <!--Cierra div selecciona-servicio-centro-opbtn -->
+    </td>
+    
+    
+    
+    <td>
+     <div class="selecciona-genero-rdbtn">
+       <label><b>&nbsp &nbsp Sexo:</b></label><br> 
+       <input type="radio" id="masculino" name="genero" value="masculino">
+       <label style="color:white;" for="masculino">Masculino</label><br>
+       <input type="radio" id="femenino" name="genero" value="femenino">
+       <label style="color:white;" for="femenino">Femenino</label>  
+         
+    </div> 
+    </td>
+
+    </tr>
+  </table>
+
+  </article>
+</section>
+</body>
+</html>
